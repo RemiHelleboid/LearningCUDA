@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/remi/DEV/LearningCUDA/build/examplesCUDA",
+  "command": "/usr/bin/nvcc    -O2 -g -DNDEBUG --generate-code=arch=compute_30,code=[compute_30,sm_30] -x cu -c /home/remi/DEV/LearningCUDA/examplesCUDA/hello_world.cu -o CMakeFiles/hello_world.dir/hello_world.cu.o",
+  "file": "/home/remi/DEV/LearningCUDA/examplesCUDA/hello_world.cu"
+}
+]

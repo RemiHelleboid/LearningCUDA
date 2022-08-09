@@ -1,0 +1,7 @@
+file(GLOB EXAMPLES *.cpp)
+foreach(EXAMPLE ${EXAMPLES})
+  get_filename_component(EXAMPLENAME ${EXAMPLE} NAME_WE)
+  message("File ${EXAMPLENAME}")
+  add_executable(${EXAMPLENAME} ${EXAMPLE})
+  target_link_libraries(${EXAMPLENAME} Thrust)
+endforeach()
